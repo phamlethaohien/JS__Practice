@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 var noidunghienra = this.getAttribute('data-visible');
                 var phantuhienra = document.getElementById(noidunghienra);
-                
+
                 phantuhienra.classList.toggle('header__list--click');
             }
             else{
@@ -26,13 +26,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
                 phantuhienra.classList.toggle('header__list--click');
             }
-
-
-
-            
-
         };
-        
     }
-
 }, false)
