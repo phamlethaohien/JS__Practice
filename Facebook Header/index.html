@@ -13,10 +13,10 @@
 <body>
     <div class="header">
         <div class="header__item">
-            <div class="header-icon">
+            <div class="header-icon" data-visible="user">
                 <i class="fa fa-caret-down" aria-hidden="true"></i>
             </div>
-            <div class="header__list">
+            <div class="header__list" id="user">
                 <ul class="list-group">
                     <li class="list-group-item">
                         <div class="header__list-content">
@@ -62,6 +62,156 @@
                             </div>
                             <div class="list-item__description">
                                 Đăng xuất
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header__item">
+            <div class="header-icon" data-visible="notification">
+                <i class="fa fa-bell" aria-hidden="true"></i>
+            </div>
+            <div class="header__list" id="notification">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="header__list-content">
+                            <img class="list-item-img" src="https://i.pinimg.com/originals/6b/bc/d1/6bbcd13b3c8be73c74fa98ed6fed63a9.jpg" alt="">
+                            <p class="list-item__description">
+                                AB và BC đã thêm vào tin của họ.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="header__list-content">
+                            <img src="https://d1iv5z3ivlqga1.cloudfront.net/wp-content/uploads/2021/01/30154600/clean-code-la-gi-1024x1024.jpg" alt="" class="list-item-img">
+                            <div class="list-item__description">
+                                XYZ đã công chiếu video
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <div class="header__list-content">
+                            <img src="https://images.unsplash.com/photo-1627498290122-7f2111edee42?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=474&q=80" alt="" class="list-item-img">
+                            <div class="list-item__description">
+                                EGH đã thêm 2 ảnh mới
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="header__list-content">
+                            <img src="https://images.unsplash.com/photo-1627482965115-e8e29bbcd451?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="" class="list-item-img">
+                            <div class="list-item__description">
+                                EHD thích bài viết của bạn
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="header__list-content">
+                            <img class="list-item-img" src="https://i.pinimg.com/originals/6b/bc/d1/6bbcd13b3c8be73c74fa98ed6fed63a9.jpg" alt="">
+                            <p class="list-item__description">
+                                AB và BC đã thêm vào tin của họ.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="header__list-content">
+                            <img src="https://d1iv5z3ivlqga1.cloudfront.net/wp-content/uploads/2021/01/30154600/clean-code-la-gi-1024x1024.jpg" alt="" class="list-item-img">
+                            <div class="list-item__description">
+                                XYZ đã công chiếu video
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <div class="header__list-content">
+                            <img src="https://images.unsplash.com/photo-1627498290122-7f2111edee42?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=474&q=80" alt="" class="list-item-img">
+                            <div class="list-item__description">
+                                EGH đã thêm 2 ảnh mới
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="header__list-content">
+                            <img src="https://images.unsplash.com/photo-1627482965115-e8e29bbcd451?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="" class="list-item-img">
+                            <div class="list-item__description">
+                                EHD thích bài viết của bạn
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header__item">
+            <div class="header-icon" data-visible="messenger">
+                <i class="fa fa-comments" aria-hidden="true"></i>
+            </div>
+            <div class="header__list" id="messenger">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="header__list-content">
+                            <img class="list-item-img" src="https://i.pinimg.com/originals/6b/bc/d1/6bbcd13b3c8be73c74fa98ed6fed63a9.jpg" alt="">
+                            <p class="list-item__description">
+                                Hôm nay ăn gì nhỉ?
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="header__list-content">
+                            <img src="https://d1iv5z3ivlqga1.cloudfront.net/wp-content/uploads/2021/01/30154600/clean-code-la-gi-1024x1024.jpg" alt="" class="list-item-img">
+                            <div class="list-item__description">
+                                Làm bài tập chưa bạn ơi?!
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <div class="header__list-content">
+                            <img src="https://images.unsplash.com/photo-1627498290122-7f2111edee42?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=474&q=80" alt="" class="list-item-img">
+                            <div class="list-item__description">
+                                Tối nay video call nhé
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="header__list-content">
+                            <img src="https://images.unsplash.com/photo-1627482965115-e8e29bbcd451?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="" class="list-item-img">
+                            <div class="list-item__description">
+                                Ngàn like
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="header__list-content">
+                            <img class="list-item-img" src="https://i.pinimg.com/originals/6b/bc/d1/6bbcd13b3c8be73c74fa98ed6fed63a9.jpg" alt="">
+                            <p class="list-item__description">
+                                Á xinh gái nha
+                            </p>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="header__list-content">
+                            <img src="https://d1iv5z3ivlqga1.cloudfront.net/wp-content/uploads/2021/01/30154600/clean-code-la-gi-1024x1024.jpg" alt="" class="list-item-img">
+                            <div class="list-item__description">
+                                Ê video kia vui cực
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <div class="header__list-content">
+                            <img src="https://images.unsplash.com/photo-1627498290122-7f2111edee42?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=474&q=80" alt="" class="list-item-img">
+                            <div class="list-item__description">
+                                Ăn cơm chưa?
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="header__list-content">
+                            <img src="https://images.unsplash.com/photo-1627482965115-e8e29bbcd451?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="" class="list-item-img">
+                            <div class="list-item__description">
+                                Hello bà
                             </div>
                         </div>
                     </li>

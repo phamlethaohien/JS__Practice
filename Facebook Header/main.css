@@ -5,7 +5,7 @@
 
 .header__item{
     float: right;
-    margin-right: 20px ;
+    margin-right: 16px ;
     position: relative;
     display: flex;
     justify-content: center;
@@ -25,7 +25,8 @@
 
 .header-icon{
     position: absolute;
-    font-size: 24px;
+    padding: 30px;
+    font-size: 18px;
     color: var(--text-color);
 }
 
@@ -34,10 +35,12 @@
     top: 45px;
     right: 0;
     width: 380px;
-    /* display: none; */
+    border-radius: 10px;
+    display: none;
 }
 
 .list-group-item{
+    max-height: 100px;
     background-color: var(--primary-background) !important;
     height: 50px;
     border: 1px var(--border-color) solid !important;
@@ -50,7 +53,9 @@
 .header__list-content{
     display: flex;
     flex-direction: row;
+    align-items: center;
     color: var(--text-color);
+    margin: 0;
 }
 
 .avt-img{
@@ -74,7 +79,14 @@
 }
 
 .list-item__description{
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+
+.list-item-img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
 }
 
 .header-icon--click{
