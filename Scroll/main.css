@@ -1,0 +1,33 @@
+.menu{
+    width: 100%;
+    background-color: #a0dfeb;
+    padding: 40px 0;
+    transition: 0.4s;
+    position: fixed;
+    z-index: 1;
+}
+
+.trai{
+    font-size: 42px;
+    line-height: 42px;
+    font-weight: 500;
+}
+
+.phai{
+    font-size: 20px;
+}
+
+.phai a{
+    margin: 16px;
+    color: #333;
+    text-decoration: none;
+}
+
+.noidung{
+    margin: 135px 0;
+}
+
+.nholai{
+    font-size: 20px;
+    padding: 20px 0;
+}
