@@ -1,0 +1,25 @@
+.slide__order{
+    width: 100%;
+}
+
+.slide__order-list{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.slide__order-item{
+    list-style: none;
+    margin: 24px 4px;
+    border: 2px solid red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.slide__order-item:hover,
+.slide__order-item--active{
+    background-color: red;
+}
